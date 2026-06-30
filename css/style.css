@@ -1,4 +1,7 @@
-/* Remove margens padrão */
+/* 
+-----------ESTILIZAÇÃO DO CABEÇALHO HOME-------------
+
+*/
 
 *{
     margin:0;
@@ -127,4 +130,158 @@ nav a:hover{
 
     box-shadow: 0 4px 12px rgba(13, 110, 253, 0.3);
 
+}
+
+
+/*
+----------ESTIIZAÇÃO AZUL ABAIXO DO CABEÇALHO MENU/HOME------------
+*/
+
+
+
+   .hero-comercio {
+    background-color: #0b3c85; /* Cor azul de fundo -  */
+    background-image: linear-gradient(rgba(11, 60, 133, 0.85), rgba(11, 60, 133, 0.85)), url('caminho-da-sua-imagem-de-fundo.jpg'); /* Camada azul + imagem da cidade ao fundo */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif; /*  fonte do projeto */
+}
+
+.hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Garante que fique responsivo em telas menores */
+    gap: 30px;
+}
+
+/* Lado Esquerdo - Textos */
+.hero-conteudo {
+    flex: 1;
+    min-width: 300px;
+}
+
+.hero-titulo {
+    font-size: 2.5rem;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.hero-subtitulo {
+    font-size: 1.1rem;
+    margin: 0 0 20px 0;
+    opacity: 0.9;
+}
+
+.hero-breadcrumb {
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+
+.hero-breadcrumb a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero-breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+/* Lado Direito - Busca e Botões */
+.hero-acoes {
+    flex: 1;
+    max-width: 500px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Barra de Busca */
+.busca-container {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 4px;
+}
+
+.busca-input {
+    flex: 1;
+    border: none;
+    padding: 12px 15px;
+    font-size: 1rem;
+    outline: none;
+    color: #333333;
+}
+
+.busca-btn {
+    background-color: #007bff; /* Azul do botão de busca */
+    border: none;
+    color: #ffffff;
+    padding: 0 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+}
+
+.busca-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Container de Botões Inferiores */
+.botoes-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+/* Botão Ver no Mapa */
+.btn-mapa {
+    flex: 1;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 0.95rem;
+    transition: background 0.2s;
+}
+
+.btn-mapa:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Botão Sou Comerciante */
+.btn-comerciante {
+    flex: 1;
+    background-color: #0052cc; /* Azul mais vivo */
+    border: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.btn-comerciante:hover {
+    background-color: #0041a3;
 }
