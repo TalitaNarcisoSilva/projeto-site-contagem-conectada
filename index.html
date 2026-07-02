@@ -142,127 +142,211 @@
         <div class="row">
 
             <!-- COLUNA ESQUERDA: LISTA DE PRÓXIMOS EVENTOS  -->
-            <section class="col-lg-8 mb-4">
-                <div class="d-flex justify-content-between align-items-center mb-4">
-                    <h3 class="fw-bold text-azul-conecta m-0">Próximos eventos</h3>
-                    <span class="text-muted small">Mostrando 24 eventos</span>
-                </div>
+            <section class="row">
 
-                <!-- ===================CARD DE EVENTO EXEMPLO 1 =============== -->
-                <div
-                    class="card-evento p-3 bg-white rounded shadow-sm mb-3 d-flex flex-column flex-md-row align-items-center gap-3">
+                <!-- =================== COLUNA ESQUERDA =================== -->
+                <div class="col-lg-8 mb-4">
 
-                    <!-- Bloco da Data (Alinhado) -->
-                    <div class="data-badge text-center d-flex flex-column justify-content-center px-3 py-2 rounded"
-                        style="min-width: 75px;">
-                        <span class="fs-3 fw-bold m-0 lh-1">24</span>
-                        <span class="small text-uppercase fw-bold">Mai</span>
-                        <span class="text-muted text-uppercase mini-text fw-bold">Sáb</span>
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h3 class="fw-bold text-azul-conecta m-0">Próximos eventos</h3>
+                        <span class="text-muted small">Mostrando 24 eventos</span>
                     </div>
 
-                    <!-- Bloco Isolado da Imagem  -->
-                    <div class="col-md-2 d-flex justify-content-center">
-                        <img src="https://unsplash.com" alt="Capa do Evento" class="rounded img-fluid"
-                            style="width: 140px; height: 100px; object-fit: cover; flex-shrink: 0;">
-                    </div>
+                    <!-- =================== CARD DE EVENTO 1 =================== -->
+                    <div
+                        class="card-evento p-3 bg-white rounded shadow-sm mb-3 d-flex flex-column flex-md-row align-items-center gap-3">
 
-                    <!-- Bloco de Textos  -->
-                    <div class="flex-grow-1 w-100">
-                        <span class="badge bg-light text-primary fw-bold text-uppercase mb-1 small">Feira</span>
-                        <h5 class="fw-bold m-0 mb-1 text-dark">Feira de Artesanato de Contagem</h5>
-                        <p class="text-muted small mb-2"><i class="bi bi-geo-alt"></i> Praça da Glória, Contagem -
-                            Centro</p>
-                        <p class="text-secondary small mb-2 truncate-text">Artesanato, gastronomia e produtos regionais.
-                            Venha prestigiar os talentos da nossa cidade!</p>
-                        <div class="d-flex align-items-center gap-3 mt-2 text-muted small flex-wrap">
-                            <span><i class="bi bi-calendar3"></i> 24 de maio (sábado)</span>
-                            <span><i class="bi bi-clock"></i> 09h às 17h</span>
-                            <span class="badge bg-success-light text-success fw-bold">Evento gratuito</span>
+                        <!-- Data -->
+                        <div class="data-badge text-center d-flex flex-column justify-content-center px-3 py-2 rounded"
+                            style="min-width: 75px;">
+                            <span class="fs-3 fw-bold m-0 lh-1">24</span>
+                            <span class="small text-uppercase fw-bold">Mai</span>
+                            <span class="text-muted text-uppercase mini-text fw-bold">Sáb</span>
                         </div>
-                    </div>
-                </div>
 
-
-                <!-- =====================CARD DE EVENTO EXEMPLO 2 =================-->
-
-                <div
-                    class="card-evento p-3 bg-white rounded shadow-sm mb-3 d-flex flex-column flex-md-row align-items-center gap-3">
-
-                    <!-- Bloco da Data (Alinhado) -->
-                    <div class="data-badge text-center d-flex flex-column justify-content-center px-3 py-2 rounded"
-                        style="min-width: 75px;">
-                        <span class="fs-3 fw-bold m-0 lh-1">25</span>
-                        <span class="small text-uppercase fw-bold">Mai</span>
-                        <span class="text-muted text-uppercase mini-text fw-bold">Sáb</span>
-                    </div>
-
-                    <!-- Bloco Isolado da Imagem  -->
-                    <div class="col-md-2 d-flex justify-content-center">
-                        <img src="https://unsplash.com" alt="Capa do Evento" class="rounded img-fluid"
-                            style="width: 140px; height: 100px; object-fit: cover; flex-shrink: 0;">
-                    </div>
-
-                    <!-- Bloco de Textos  -->
-                    <div class="flex-grow-1 w-100">
-                        <span class="badge bg-light text-primary fw-bold text-uppercase mb-1 small">Feira</span>
-                        <h5 class="fw-bold m-0 mb-1 text-dark">Feira de Artesanato de Contagem</h5>
-                        <p class="text-muted small mb-2"><i class="bi bi-geo-alt"></i> Praça da Glória, Contagem -
-                            Centro</p>
-                        <p class="text-secondary small mb-2 truncate-text">Artesanato, gastronomia e produtos regionais.
-                            Venha prestigiar os talentos da nossa cidade!</p>
-                        <div class="d-flex align-items-center gap-3 mt-2 text-muted small flex-wrap">
-                            <span><i class="bi bi-calendar3"></i> 24 de maio (sábado)</span>
-                            <span><i class="bi bi-clock"></i> 09h às 17h</span>
-                            <span class="badge bg-success-light text-success fw-bold">Evento gratuito</span>
+                        <!-- Imagem -->
+                        <div class="col-md-2 d-flex justify-content-center">
+                            <img src="https://unsplash.com" alt="Capa do Evento" class="rounded img-fluid"
+                                style="width:140px;height:100px;object-fit:cover;">
                         </div>
+
+                        <!-- Conteúdo -->
+                        <div class="flex-grow-1">
+
+                            <span class="badge bg-light text-primary fw-bold text-uppercase mb-1 small">
+                                Feira
+                            </span>
+
+                            <h5 class="fw-bold mb-1">
+                                Feira de Artesanato de Contagem
+                            </h5>
+
+                            <p class="text-muted small mb-2">
+                                <i class="bi bi-geo-alt"></i>
+                                Praça da Glória, Contagem - Centro
+                            </p>
+
+                            <p class="text-secondary small mb-2">
+                                Artesanato, gastronomia e produtos regionais.
+                                Venha prestigiar os talentos da nossa cidade!
+                            </p>
+
+                            <div class="d-flex flex-wrap gap-3 small text-muted">
+
+                                <span>
+                                    <i class="bi bi-calendar3"></i>
+                                    24 de maio (sábado)
+                                </span>
+
+                                <span>
+                                    <i class="bi bi-clock"></i>
+                                    09h às 17h
+                                </span>
+
+                                <span class="badge bg-success-light text-success fw-bold">
+                                    Evento gratuito
+                                </span>
+
+                            </div>
+
+                        </div>
+
                     </div>
+
+                    <!-- =================== CARD DE EVENTO 2 =================== -->
+
+                    <div
+                        class="card-evento p-3 bg-white rounded shadow-sm mb-3 d-flex flex-column flex-md-row align-items-center gap-3">
+
+                        <!-- Data -->
+                        <div class="data-badge text-center d-flex flex-column justify-content-center px-3 py-2 rounded"
+                            style="min-width:75px;">
+
+                            <span class="fs-3 fw-bold m-0 lh-1">25</span>
+                            <span class="small text-uppercase fw-bold">Mai</span>
+                            <span class="text-muted text-uppercase mini-text fw-bold">Sáb</span>
+
+                        </div>
+
+                        <!-- Imagem -->
+                        <div class="col-md-2 d-flex justify-content-center">
+
+                            <img src="https://unsplash.com" alt="Capa do Evento" class="rounded img-fluid"
+                                style="width:140px;height:100px;object-fit:cover;">
+
+                        </div>
+
+                        <!-- Conteúdo -->
+                        <div class="flex-grow-1">
+
+                            <span class="badge bg-light text-primary fw-bold text-uppercase mb-1 small">
+                                Feira
+                            </span>
+
+                            <h5 class="fw-bold mb-1">
+                                Feira de Artesanato de Contagem
+                            </h5>
+
+                            <p class="text-muted small mb-2">
+                                <i class="bi bi-geo-alt"></i>
+                                Praça da Glória, Contagem - Centro
+                            </p>
+
+                            <p class="text-secondary small mb-2">
+                                Artesanato, gastronomia e produtos regionais.
+                                Venha prestigiar os talentos da nossa cidade!
+                            </p>
+
+                            <div class="d-flex flex-wrap gap-3 small text-muted">
+
+                                <span>
+                                    <i class="bi bi-calendar3"></i>
+                                    24 de maio (sábado)
+                                </span>
+
+                                <span>
+                                    <i class="bi bi-clock"></i>
+                                    09h às 17h
+                                </span>
+
+                                <span class="badge bg-success-light text-success fw-bold">
+                                    Evento gratuito
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
                 </div>
 
+                <!-- =================== COLUNA DIREITA =================== -->
 
-                <!-- COLUNA DIREITA: LATERAL PREENCHIDA (Ocupa 4 de 12 partes da tela) -->
                 <aside class="col-lg-4 mb-4">
 
-                    <!-- Bloco 1: Cadastro de E-mail para Novidades -->
+                    <!-- Receba novidades -->
                     <div class="bloco-lateral p-4 bg-white rounded shadow-sm text-center mb-4">
+
                         <div class="icon-envelope mb-3">
                             <i class="bi bi-envelope-paper-heart display-5 text-azul-conecta"></i>
                         </div>
-                        <h5 class="fw-bold text-dark">Receba novidades</h5>
-                        <p class="text-muted small px-2">Cadastre seu e-mail e receba os principais eventos acontecendo
-                            na
-                            cidade.</p>
+
+                        <h5 class="fw-bold text-dark">
+                            Receba novidades
+                        </h5>
+
+                        <p class="text-muted small px-2">
+                            Cadastre seu e-mail e receba os principais eventos acontecendo na cidade.
+                        </p>
+
                         <div class="mt-3">
+
                             <input type="email" class="form-control text-center mb-2" placeholder="Seu melhor e-mail">
-                            <button class="btn btn-conecta w-100">Inscrever-se</button>
+
+                            <button class="btn btn-conecta w-100">
+                                Inscrever-se
+                            </button>
+
                         </div>
+
                     </div>
 
-                    <!-- Bloco 2: Chamada para Organizadores de Eventos -->
+                    <!-- Organizador -->
+
                     <div
                         class="bloco-lateral p-4 bg-white rounded shadow-sm text-center border-top border-primary border-4">
+
                         <div class="icon-organizador mb-3">
                             <i class="bi bi-megaphone display-5 text-azul-conecta"></i>
                         </div>
-                        <h5 class="fw-bold text-dark">É organizador de eventos?</h5>
-                        <p class="text-muted small px-2">Divulgue seu evento gratuitamente. Alcance mais pessoas e
-                            fortaleça
-                            a cultura local.</p>
+
+                        <h5 class="fw-bold text-dark">
+                            É organizador de eventos?
+                        </h5>
+
+                        <p class="text-muted small px-2">
+                            Divulgue seu evento gratuitamente. Alcance mais pessoas e fortaleça a cultura local.
+                        </p>
+
                         <div class="mt-3">
-                            <!-- Lembra da tag <a> que finge ser botão? Ela aqui de novo! -->
+
                             <a href="./cadastrar-evento.html"
-                                class="btn btn-outline-conecta d-block w-100 text-decoration-none">
+                                class="btn btn-outline-conecta w-100 text-decoration-none">
+
                                 Cadastrar evento
+
                             </a>
+
                         </div>
+
                     </div>
 
                 </aside>
+
             </section>
         </div>
     </main>
-
-
-
 
 
 </body>
