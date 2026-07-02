@@ -10,7 +10,7 @@
     gap: 120px;
 }
 
-.footer-col{
+.footer-col:last-child{
     min-width:180px;
     text-align: center;
 }
@@ -71,10 +71,10 @@
     border-radius: 0 6px 6px 0;
 }
 
-.footer-copy {
+.footer-copy:last-child{
     margin-top: 50px;
     padding-top: 25px;
     border-top: 1px solid rgba(255,255,255,.2);
-    text-align: center;
+
     color:#d6d6d6;
 }
