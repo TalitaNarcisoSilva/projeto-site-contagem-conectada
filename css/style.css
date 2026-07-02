@@ -7,12 +7,12 @@
 
 .container{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    gap: 120px;
 }
 
 .footer-col{
     min-width:180px;
+    text-align: center;
 }
 
 .footer-col h3{
@@ -21,7 +21,7 @@
 }
 
 .footer-col ul{
-    list-style: nome;
+    list-style: none;
     padding: 0;
 }
 
@@ -51,8 +51,8 @@
 }
 
 .redes img {
-    display: flex;
-    margin-top: 20px;
+    display: 30px;
+    margin-top: 30px;
 }
 
 .newsletter input{
@@ -60,12 +60,12 @@
     width: 220px;
     border: none;
     border-radius: 6px 0 0 6px;
-    outline: nome;
+    outline: none;
 }
 
 .newsletter button{
     border: none;
-    padding: 12px 18px;
+    padding: 10px 18px;
     background: #ffffff;
     cursor: pointer;
     border-radius: 0 6px 6px 0;
