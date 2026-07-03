@@ -127,18 +127,64 @@
         <!-- LINHA DE CATEGORIAS (Aparece apenas uma vez) -->
         <section class="row mb-5">
             <div class="col-12">
-                <div
-                    class="d-flex justify-content-between align-items-center flex-wrap gap-2 guia-categorias p-3 bg-white rounded shadow-sm">
-                    <button class="btn-categoria active"><i class="bi bi-grid-1x2"></i> Todos</button>
-                    <button class="btn-categoria"><i class="bi bi-music-note-beamed"></i> Shows</button>
-                    <button class="btn-categoria"><i class="bi bi-palette"></i> Cultura</button>
-                    <button class="btn-categoria"><i class="bi bi-dribbble"></i> Esportes</button>
-                    <button class="btn-categoria"><i class="bi bi-book"></i> Educação</button>
-                    <button class="btn-categoria"><i class="bi bi-egg-fried"></i> Gastronomia</button>
-                    <button class="btn-categoria"><i class="bi bi-heart-pulse"></i> Saúde</button>
-                    <button class="btn-categoria"><i class="bi bi-shop"></i> Feiras</button>
-                    <button class="btn-categoria"><i class="bi bi-three-dots"></i> Mais</button>
+        
+                <!-- BOTÃO MOBILE -->
+                <button class="btn btn-light w-100 d-lg-none mb-2"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#categoriasCollapse"
+                        aria-expanded="false"
+                        aria-controls="categoriasCollapse">
+        
+                    <i class="bi bi-grid-1x2"></i> Categorias
+        
+                </button>
+        
+                <!-- CONTEÚDO -->
+                <div class="collapse d-lg-block" id="categoriasCollapse">
+        
+                    <div class="d-flex flex-wrap gap-2 guia-categorias p-3 bg-white rounded shadow-sm">
+        
+                        <button class="btn-categoria active">
+                            <i class="bi bi-grid-1x2"></i> Todos
+                        </button>
+        
+                        <button class="btn-categoria">
+                            <i class="bi bi-music-note-beamed"></i> Shows
+                        </button>
+        
+                        <button class="btn-categoria">
+                            <i class="bi bi-palette"></i> Cultura
+                        </button>
+        
+                        <button class="btn-categoria">
+                            <i class="bi bi-dribbble"></i> Esportes
+                        </button>
+        
+                        <button class="btn-categoria">
+                            <i class="bi bi-book"></i> Educação
+                        </button>
+        
+                        <button class="btn-categoria">
+                            <i class="bi bi-egg-fried"></i> Gastronomia
+                        </button>
+        
+                        <button class="btn-categoria">
+                            <i class="bi bi-heart-pulse"></i> Saúde
+                        </button>
+        
+                        <button class="btn-categoria">
+                            <i class="bi bi-shop"></i> Feiras
+                        </button>
+        
+                        <button class="btn-categoria">
+                            <i class="bi bi-three-dots"></i> Mais
+                        </button>
+        
+                    </div>
+        
                 </div>
+        
             </div>
         </section>
 

@@ -578,6 +578,27 @@ BLOCO ABAIXO DE BANNERS  DA SESSÃO AZUL
     color: var(--azul-conecta);
     font-weight: 600;
 }
+@media (max-width: 991px) {
+
+    .guia-categorias {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .btn-categoria {
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+        min-width: 100%;
+        text-align: left;
+        gap: 10px;
+    }
+
+    .btn-categoria i {
+        font-size: 18px;
+    }
+}
 
 /* CARDS DE EVENTO (LAYOUT CLEAN) */
 .card-evento {
