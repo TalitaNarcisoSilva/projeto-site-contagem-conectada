@@ -28,6 +28,10 @@
             <img src="img/logo123.png" alt="Logo">
         </div>
 
+        <button class="menu-toggle">
+            <i class="bi bi-list"></i>
+        </button>
+
         <nav>
 
             <ul class="d-flex list-unstyled">
@@ -519,7 +523,7 @@
                 </p>
 
                 <!-- Redes sociais -->
-    
+
                 <div class="redes">
 
                     <a href="#" aria-label="Facebook">
@@ -616,6 +620,21 @@
         </div>
 
     </footer>
+
+    <script>
+
+
+        const botao = document.querySelector(".menu-toggle");
+        const menu = document.querySelector("nav");
+
+        botao.addEventListener("click", () => {
+
+            menu.classList.toggle("ativo");
+
+        });
+
+
+    </script>
 
 </body>
 
